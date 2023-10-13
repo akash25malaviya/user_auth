@@ -51,7 +51,15 @@ class LoginAPI(generics.GenericAPIView):
                 },
                 status=status.HTTP_201_CREATED,
             )
-            
+        else:
+            return response.Response(
+                {
+                    "status": True,
+                    "message": "Somthig wont's wrong",
+                    "data": {},
+                },
+                status=status.HTTP_201_CREATED,
+            )
 
 class GetUserDataAPI(generics.GenericAPIView):
     """

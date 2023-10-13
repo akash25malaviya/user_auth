@@ -58,7 +58,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"first_name\" : \"test\",\r\n    \"last_name\" : \"demo\",\r\n    \"username\": \"test demo\",\r\n    \"email\" : \"test@gmail.com\",\r\n    \"password\" : \"test1234\"\r\n}",
+							"raw": "{\r\n    \"username\": \"test demo\",\r\n    \"password\" : \"test1234\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -87,7 +87,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk3MTc1MDkwLCJpYXQiOjE2OTcxNzQ3OTAsImp0aSI6IjgyMTZlYzUyOWI5NTQ2YzQ5ZDhiMWRjODA5ZWJmMTMwIiwidXNlcl9pZCI6IjU2NDFhNDlkLTZlY2YtNDMxNC1hYThmLWNhZDE0YmIwYjdjOCJ9.CsGElf91BihIlafrihE7uQlqt8EvtRuaf_BcH6JrtUk",
+									"value": "{{access_tokens}}",
 									"type": "string"
 								}
 							]
